@@ -60,7 +60,7 @@
     <session id="-198283401">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
@@ -82,31 +82,32 @@
           <entry key="animal" value="3" />
           <entry key="appointment_history" value="4" />
           <entry key="appointments" value="5" />
-          <entry key="class" value="5" />
-          <entry key="classpath" value="1" />
+          <entry key="class" value="6" />
+          <entry key="classpath" value="2" />
           <entry key="doctor" value="3" />
           <entry key="fxml" value="9" />
           <entry key="iws" value="1" />
-          <entry key="java" value="61" />
+          <entry key="java" value="62" />
           <entry key="log" value="3" />
+          <entry key="project" value="1" />
           <entry key="pth" value="2" />
           <entry key="sql" value="7" />
           <entry key="type_animal" value="3" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="6" />
           <entry key="Database Element" value="17" />
-          <entry key="Eclipse" value="1" />
+          <entry key="Eclipse" value="3" />
           <entry key="IDEA_WORKSPACE" value="1" />
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="62" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="6" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -115,17 +116,17 @@
           <entry key="fxml" value="19" />
           <entry key="java" value="3001" />
           <entry key="sql" value="57" />
-          <entry key="txt" value="7" />
-          <entry key="xml" value="5" />
+          <entry key="txt" value="32" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3001" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="32" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="221" />
-          <entry key="XML" value="24" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -136,11 +137,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.ideaDataSources/7db14b0e-beeb-48ee-bb84-b0cf02853ae8.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/classes/main/Main.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -178,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/util/AppointmentsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/META-INF/application.xml" />
       </list>
     </option>
   </component>
@@ -252,12 +281,6 @@
               <item name="PetShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PetShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PetShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,12 +367,20 @@
       <workItem from="1542448805061" duration="3255000" />
       <workItem from="1542453184307" duration="586000" />
       <workItem from="1542453853750" duration="1431000" />
-      <workItem from="1543345588445" duration="261000" />
+      <workItem from="1543345588445" duration="474000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed Eclipse claspaths">
+      <created>1543345950507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543345950507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45568000" />
+    <option name="totallyTimeSpent" value="45781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,9 +393,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6351351" visible="true" weight="0.24295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6351351" visible="true" weight="0.24295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.36486486" side_tool="true" weight="0.3481276" />
       <window_info id="Designer" order="3" />
@@ -375,7 +405,7 @@
       <window_info id="JavaEE:App" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16759777" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3924581" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3924581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,6 +469,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed Eclipse claspaths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Eclipse claspaths" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,9 +541,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/AppointmentsEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/model/DoctorEntity.java" />
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -531,13 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -659,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/classes/main/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs_err_pid32172.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -680,13 +697,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,10 +767,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.ideaDataSources/7db14b0e-beeb-48ee-bb84-b0cf02853ae8.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/classes/main/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
