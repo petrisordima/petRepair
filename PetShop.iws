@@ -71,8 +71,9 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,9 +88,11 @@
           <entry key="fxml" value="9" />
           <entry key="iws" value="1" />
           <entry key="java" value="61" />
+          <entry key="log" value="3" />
+          <entry key="pth" value="2" />
           <entry key="sql" value="7" />
           <entry key="type_animal" value="3" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -99,10 +102,11 @@
           <entry key="Eclipse" value="1" />
           <entry key="IDEA_WORKSPACE" value="1" />
           <entry key="JAVA" value="61" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="6" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -132,117 +136,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
+        <entry file="file://$PROJECT_DIR$/.ideaDataSources/7db14b0e-beeb-48ee-bb84-b0cf02853ae8.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="73" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="73" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/AppointmentsUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="method#printAppointmentHistory#0;class#AppointmentsUtil#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/AnimalUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7db14b0e-beeb-48ee-bb84-b0cf02853ae8/console_2.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://7db14b0e-beeb-48ee-bb84-b0cf02853ae8/schema/petshop/table/appointment_history">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/7db14b0e-beeb-48ee-bb84-b0cf02853ae8.SCHEMA:petshop">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>7db14b0e-beeb-48ee-bb84-b0cf02853ae8.SCHEMA:petshop</OriginalElement>
-              <nodes>
-                <node x="0.0" y="125.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal</node>
-                <node x="86.99999999999999" y="272.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments</node>
-                <node x="84.99999999999999" y="463.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointment_history</node>
-                <node x="204.0" y="136.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor</node>
-                <node x="9.5" y="0.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.type_animal</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointment_history" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments">
-                  <point x="0.0" y="-70.5" />
-                  <point x="0.0" y="70.5" />
-                </edge>
-                <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor">
-                  <point x="53.25" y="-70.5" />
-                  <point x="246.75" y="247.0" />
-                  <point x="295.0" y="247.0" />
-                  <point x="0.0" y="37.5" />
-                </edge>
-                <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.type_animal">
-                  <point x="0.0" y="-48.5" />
-                  <point x="0.0" y="37.5" />
-                </edge>
-                <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal">
-                  <point x="-53.25" y="-70.5" />
-                  <point x="140.25" y="247.0" />
-                  <point x="92.0" y="247.0" />
-                  <point x="0.0" y="48.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7692307692307693" x="193.0" y="302.0" />
-              <SelectedNodes>
-                <node>7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
+            <state relative-caret-position="221">
+              <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -257,6 +155,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -297,8 +198,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="365" />
-    <option name="y" value="65" />
+    <option name="x" value="137" />
+    <option name="y" value="16" />
     <option name="width" value="1455" />
     <option name="height" value="1050" />
   </component>
@@ -334,6 +235,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -350,6 +252,12 @@
               <item name="PetShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PetShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,11 +344,12 @@
       <workItem from="1542448805061" duration="3255000" />
       <workItem from="1542453184307" duration="586000" />
       <workItem from="1542453853750" duration="1431000" />
+      <workItem from="1543345588445" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45307000" />
+    <option name="totallyTimeSpent" value="45568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +364,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6351351" visible="true" weight="0.1932886" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6351351" visible="true" weight="0.24295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.36486486" side_tool="true" weight="0.3481276" />
       <window_info id="Designer" order="3" />
@@ -466,7 +375,7 @@
       <window_info id="JavaEE:App" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16759777" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13547486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3924581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,7 +394,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.087919466" />
+      <window_info anchor="right" id="Database" order="6" weight="0.087919466" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="SciView" order="9" />
@@ -757,20 +666,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid32172.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid17560.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid17560.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="170">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="321">
           <caret line="21" column="73" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="73" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/AppointmentsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -809,39 +740,16 @@
           <ID>DATABASE</ID>
           <OriginalElement>7db14b0e-beeb-48ee-bb84-b0cf02853ae8.SCHEMA:petshop</OriginalElement>
           <nodes>
-            <node x="0.0" y="125.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal</node>
-            <node x="86.99999999999999" y="272.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments</node>
-            <node x="84.99999999999999" y="463.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointment_history</node>
-            <node x="204.0" y="136.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor</node>
-            <node x="9.5" y="0.0">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.type_animal</node>
+            <node x="" y="">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal</node>
+            <node x="" y="">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.type_animal</node>
+            <node x="" y="">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointment_history</node>
+            <node x="" y="">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor</node>
+            <node x="" y="">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointment_history" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments">
-              <point x="0.0" y="-70.5" />
-              <point x="0.0" y="70.5" />
-            </edge>
-            <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor">
-              <point x="53.25" y="-70.5" />
-              <point x="246.75" y="247.0" />
-              <point x="295.0" y="247.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.type_animal">
-              <point x="0.0" y="-48.5" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.appointments" target="7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal">
-              <point x="-53.25" y="-70.5" />
-              <point x="140.25" y="247.0" />
-              <point x="92.0" y="247.0" />
-              <point x="0.0" y="48.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7692307692307693" x="193.0" y="302.0" />
-          <SelectedNodes>
-            <node>7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.animal</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7692307692307693" x="659.6999999999999" y="237.64999999999998" />
+          <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
@@ -849,10 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
+    <entry file="file://$PROJECT_DIR$/.ideaDataSources/7db14b0e-beeb-48ee-bb84-b0cf02853ae8.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
         </state>
       </provider>
     </entry>
