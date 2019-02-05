@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-
+//Main class which extends from Application Class
 public class Main extends Application {
 
 
@@ -22,7 +22,7 @@ public class Main extends Application {
         try {
 
             AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("/controllers/MainView.fxml"));
-            Scene scene = new Scene(root, 1000, 700);
+            Scene scene = new Scene(root, 1200, 800);
             primaryStage.setTitle("PetShopRepair");
             primaryStage.setScene(scene);
             primaryStage.show();

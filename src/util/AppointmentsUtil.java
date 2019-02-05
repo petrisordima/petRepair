@@ -2,20 +2,34 @@ package util;
 
 import model.Appointment;
 import model.AppointmentHistory;
+import model.VAppointmentList;
 
 import java.util.List;
 
 public class AppointmentsUtil {
 
+
     public static List<Appointment> appointmentList() {
-        List<Appointment> results = DatabaseUtil.entityManager.createNativeQuery(
-                "Select * from petshop.appointments", Appointment.class).getResultList();
+
+        return DatabaseUtil.entityManager.createNativeQuery(
+                "Select * from petshop.appointments", Appointment.class)
+                .getResultList();
+    }
+
+    //appointment list form view
+    public static List<VAppointmentList> appointmentViewList() {
+        List<VAppointmentList> results = DatabaseUtil.entityManager.createNativeQuery(
+                "Select * from petshop.v_appointment_list", VAppointmentList.class)
+                .getResultList();
         return results;
     }
 
+    //appointment history list
     public static List<AppointmentHistory> appointmentHistList() {
         List<AppointmentHistory> results = DatabaseUtil.entityManager.createNativeQuery(
-                "select * from appointment_history where idAppointment = 1", AppointmentHistory.class).getResultList();
+                "select * from appointment_history where idAppointment = 1",
+                AppointmentHistory.class)
+                .getResultList();
         return results;
     }
 

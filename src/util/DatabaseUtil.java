@@ -1,9 +1,17 @@
 package util;
 
 
+import com.sun.rowset.CachedRowSetImpl;
+import model.Appointment;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.List;
 
 public class DatabaseUtil {
 
@@ -12,6 +20,9 @@ public class DatabaseUtil {
 
     // will handle the transactions
     public static EntityManager entityManager;
+    //Connection
+    private static Connection conn = null;
+
 
     //sets up the connection to the database from PetShop JPA
 
@@ -27,7 +38,7 @@ public class DatabaseUtil {
     }
 
 
-    public void startTransaction() {
+    public  void startTransaction() {
 
         entityManager.getTransaction().begin();
 
@@ -41,7 +52,7 @@ public class DatabaseUtil {
     }
 
 
-    public void stopEntityManager() {
+    public  void stopEntityManager() {
 
         entityManager.close();
 

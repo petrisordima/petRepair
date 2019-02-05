@@ -16,6 +16,9 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import static util.AppointmentsUtil.appointmentHistList;
+import static util.AppointmentsUtil.appointmentList;
+
 public class MainController implements Initializable {
     /*
     Animal List
@@ -28,6 +31,7 @@ public class MainController implements Initializable {
     @FXML
     private ListView<String> listViewAppointments;
 
+
     /*
     AppointmentHistory List
     */
@@ -35,15 +39,16 @@ public class MainController implements Initializable {
     private ListView<String> listViewAppointmentHistory;
 
 
-
     @Override
-
     public void initialize(URL location, ResourceBundle resources) {
 
-        populateAnimalList();
         populateAppointmentsList();
-        populateAppointmentsHistoryList();
+
     }
+
+    /**
+     * Animal List
+     */
 
     public void populateAnimalList() {
         DatabaseUtil db = new DatabaseUtil();
@@ -51,7 +56,7 @@ public class MainController implements Initializable {
         db.startTransaction();
         AnimalUtil animalUtil = new AnimalUtil();
 
-        List<Animal> animalDBList = (List<Animal>) animalUtil.animalList();
+        List<Animal> animalDBList = AnimalUtil.animalList();
         ObservableList<String> animalsNameList = getAnimalNames(animalDBList);
         listViewAnimals.setItems(animalsNameList);
         listViewAnimals.refresh();
@@ -69,38 +74,48 @@ public class MainController implements Initializable {
         return FXAnimalList;
     }
 
+    /**
+     * Appointment List
+     */
+
     public void populateAppointmentsList() {
         DatabaseUtil db = new DatabaseUtil();
         db.setup();
         db.startTransaction();
-        AppointmentsUtil appointmentsUtil = new AppointmentsUtil();
-
-        List<Appointment> appointmentDBList = (List<Appointment>) appointmentsUtil.appointmentList();
-        ObservableList<String> appointmentIDList = getAppointmentNumber(appointmentDBList);
-        listViewAppointments.setItems(appointmentIDList);
+        List<Appointment> appointmentDBList = appointmentList();
+        ObservableList<String> appointmentList = getAppointmentList(appointmentDBList);
+        listViewAppointments.setItems(appointmentList);
         listViewAppointments.refresh();
 
 
         db.stopEntityManager();
     }
 
-    public ObservableList<String> getAppointmentNumber(List<Appointment> appointmentList) {
+    public ObservableList<String> getAppointmentList(List<Appointment> appointmentList) {
 
         ObservableList<String> FXAppointmentsList = FXCollections.observableArrayList();
 
         for (Appointment a : appointmentList) {
-            FXAppointmentsList.add(a.getAnimal().getTypeAnimalBean().getType() + " named : " + a.getAnimal().getNameAnimal() + " with " + a.getTypeAppointment());
+            FXAppointmentsList.add(a.getAnimal().getTypeAnimalBean().getType() +
+                    " named : " + a.getAnimal().getNameAnimal()
+                    + " with " + a.getTypeAppointment());
         }
         return FXAppointmentsList;
     }
+
+
+    /**
+     * Appointment History
+     */
 
     public void populateAppointmentsHistoryList() {
         DatabaseUtil db = new DatabaseUtil();
         db.setup();
         db.startTransaction();
+
         AppointmentsUtil appointmentsUtil = new AppointmentsUtil();
 
-        List<AppointmentHistory> appointmentHistoryDBList = (List<AppointmentHistory>) appointmentsUtil.appointmentHistList();
+        List<AppointmentHistory> appointmentHistoryDBList = appointmentHistList();
         ObservableList<String> appointmentHistoryList = getAppointmentHistoryList(appointmentHistoryDBList);
         listViewAppointmentHistory.setItems(appointmentHistoryList);
         listViewAppointmentHistory.refresh();
