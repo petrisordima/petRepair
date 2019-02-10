@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="47471df5-275f-4447-ad51-19d08ac32063" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/PetShop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/controllers/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/controllers/MainView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/AppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainView.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,12 +122,12 @@
           <entry key="Database Element" value="19" />
           <entry key="Eclipse" value="3" />
           <entry key="IDEA_WORKSPACE" value="1" />
-          <entry key="JAVA" value="112" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="115" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="10" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="24" />
+          <entry key="XML" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -138,11 +142,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5009" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="JAVA" value="5371" />
+          <entry key="PLAIN_TEXT" value="40" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="405" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -156,34 +160,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/AppointmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="139" column="47" selection-start-line="139" selection-start-column="47" selection-end-line="139" selection-end-column="47" />
+            <state relative-caret-position="399">
+              <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initialize#0;class#AppointmentController#0" />
+                <element signature="e#4376#4377#0" expanded="true" />
+                <element signature="e#4406#4407#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
+        <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-              <folding>
-                <element signature="method#populateAnimalList#0;class#MainController#0" />
-                <element signature="method#getAnimalNames#0;class#MainController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/AppointmentsUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="60" column="95" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -191,65 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/VAppointmentList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/DoctorUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/DatabaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="31" column="82" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -289,11 +226,13 @@
         <option value="$PROJECT_DIR$/src/controllers/ApointmentController.java" />
         <option value="$PROJECT_DIR$/src/util/AppointmentsUtil.java" />
         <option value="$PROJECT_DIR$/build/classes/controllers/MainView.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/MainView.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/MainController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7db14b0e-beeb-48ee-bb84-b0cf02853ae8/console_4.sql" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/model/Animal.java" />
+        <option value="$PROJECT_DIR$/src/controllers/RootLayoutController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/RootLayout.fxml" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/MainView.fxml" />
         <option value="$PROJECT_DIR$/src/controllers/AppointmentController.java" />
       </list>
     </option>
@@ -315,8 +254,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="830" />
+    <option name="x" value="192" />
+    <option name="y" value="25" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -390,13 +330,7 @@
               <item name="PetShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PetShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PetShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +345,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="7db14b0e-beeb-48ee-bb84-b0cf02853ae8" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549813901206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549816451273" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/model" />
@@ -424,6 +358,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controllers" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="util.DoctorUtil" />
       <recent name="util.AnimalUtil" />
@@ -434,6 +371,7 @@
       <recent name="model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\MediiSiInstrumenteDeProgramare\InteliJWorkspace\PetShop\src\controllers" />
       <recent name="D:\Facultate\MediiSiInstrumenteDeProgramare\InteliJWorkspace\PetShop\src\model" />
     </key>
   </component>
@@ -495,7 +433,7 @@
       <workItem from="1549389487201" duration="2242000" />
       <workItem from="1549486272390" duration="1124000" />
       <workItem from="1549487647034" duration="29000" />
-      <workItem from="1549805433207" duration="1252000" />
+      <workItem from="1549805433207" duration="3737000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Eclipse claspaths">
       <created>1543345950507</created>
@@ -511,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549391365417</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Comments">
+      <created>1549813927328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549813927328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83391000" />
+    <option name="totallyTimeSpent" value="85876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +486,7 @@
       <window_info id="JavaEE:App" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.046089385" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15782122" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25139666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,19 +553,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed Eclipse claspaths" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Eclipse claspaths" />
+    <MESSAGE value="Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/controllers/MainController.java</url>
-          <line>93</line>
-          <properties class="controllers.MainController" method="getAppointmentList">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/util/DatabaseUtil.java</url>
           <line>29</line>
@@ -628,14 +566,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/controllers/MainController.java</url>
-          <line>52</line>
-          <properties class="controllers.MainController" method="populateAnimalList">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/util/DatabaseUtil.java</url>
@@ -647,27 +577,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://DATABASE/7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor</OriginalElement>
-          <nodes>
-            <node x="" y="">7db14b0e-beeb-48ee-bb84-b0cf02853ae8.TABLE:petshop.doctor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="91.0" y="38.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AppointmentsEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/model/DoctorEntity.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -838,16 +747,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs_err_pid29444.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3417" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replay_pid29444.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2346" />
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7db14b0e-beeb-48ee-bb84-b0cf02853ae8/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -881,14 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="241" selection-start-line="12" selection-start-column="241" selection-end-line="12" selection-end-column="241" />
         </state>
       </provider>
     </entry>
@@ -937,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/AppointmentsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -951,10 +835,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/RootLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/RootLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid29444.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2142" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid29444.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="95" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        <state relative-caret-position="-1011">
+          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
           <folding>
             <element signature="method#populateAnimalList#0;class#MainController#0" />
             <element signature="method#getAnimalNames#0;class#MainController#0" />
@@ -962,13 +877,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/AppointmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="139" column="47" selection-start-line="139" selection-start-column="47" selection-end-line="139" selection-end-column="47" />
+        <state relative-caret-position="399">
+          <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initialize#0;class#AppointmentController#0" />
+            <element signature="e#4376#4377#0" expanded="true" />
+            <element signature="e#4406#4407#0" expanded="true" />
           </folding>
         </state>
       </provider>

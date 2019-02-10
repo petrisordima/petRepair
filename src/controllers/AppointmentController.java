@@ -2,8 +2,10 @@ package controllers;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
@@ -21,7 +23,7 @@ import java.util.ResourceBundle;
 
 public class AppointmentController implements Initializable {
 
-    AppointmentsUtil au = new AppointmentsUtil();
+    AppointmentsUtil appointmentsUtil = new AppointmentsUtil();
 
     /**
      * Appointments table and column definition
@@ -62,7 +64,7 @@ public class AppointmentController implements Initializable {
         db.startTransaction();
 
         // get appointment list
-        List<Appointment> appointmentDBList = au.appointmentList();
+        List<Appointment> appointmentDBList = appointmentsUtil.appointmentList();
 
         //map columns to appointment properties
         dateAppointment.setCellValueFactory(new PropertyValueFactory<>("dateAppointment"));
@@ -81,39 +83,42 @@ public class AppointmentController implements Initializable {
                 getSelectedItem().
                 getAnimal().
                 getNameAnimal())
-
-
         );
+
+        //load appointments details on mouse pressed
 
         tableViewAppointments.setOnMousePressed(event -> {
             // animal type
-            animalType.setText(tableViewAppointments.
-                    getSelectionModel().
-                    getSelectedItem().
-                    getAnimal().
-                    getTypeAnimalBean().
-                    getType());
-            // animal name
-            animalName.setText(tableViewAppointments.
-                    getSelectionModel().
-                    getSelectedItem().
-                    getAnimal().
-                    getNameAnimal());
-            //doctor name
-            doctorName.setText(tableViewAppointments.
-                    getSelectionModel().
-                    getSelectedItem().
-                    getDoctor().
-                    getNameDoctor());
+            try {
+                animalType.setText(tableViewAppointments.
+                        getSelectionModel().
+                        getSelectedItem().
+                        getAnimal().
+                        getTypeAnimalBean().
+                        getType());
+                // animal name
+                animalName.setText(tableViewAppointments.
+                        getSelectionModel().
+                        getSelectedItem().
+                        getAnimal().
+                        getNameAnimal());
+                //doctor name
+                doctorName.setText(tableViewAppointments.
+                        getSelectionModel().
+                        getSelectedItem().
+                        getDoctor().
+                        getNameDoctor());
+            } catch (Exception e) {
+                System.out.println(" no item selected in the list");
+            }
 
         });
-
 
         db.stopEntityManager();
     }
 
     /**
-     * Appointment Table
+     * Appointment Table observable list
      */
 
 
@@ -129,7 +134,7 @@ public class AppointmentController implements Initializable {
     }
 
     /**
-     * Appointment History
+     * Appointment History observable list
      */
 
     public ObservableList<String> getAppointmentHistoryList(List<AppointmentHistory> appointmentHistoryList) {
@@ -137,8 +142,21 @@ public class AppointmentController implements Initializable {
         ObservableList<String> FXAppointmentsList = FXCollections.observableArrayList();
 
         for (AppointmentHistory a : appointmentHistoryList) {
-            FXAppointmentsList.add(a.getName()  + a.getDescription());
+            FXAppointmentsList.add(a.getName() + a.getDescription());
         }
         return FXAppointmentsList;
+    }
+
+    //Exit the program
+    public void handleExit(ActionEvent actionEvent) {
+        System.exit(0);
+    }
+
+    public void handleHelp(ActionEvent actionEvent) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Program Information");
+        alert.setHeaderText("This is a laboratory project for Java");
+        alert.setContentText("Displays a list of appointments and lets you create a new one for a veterinary cabinet" + "\n" + "by Petrisor Dima");
+        alert.show();
     }
 }

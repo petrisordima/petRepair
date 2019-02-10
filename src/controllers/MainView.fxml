@@ -48,21 +48,20 @@
         </SplitPane>
       <MenuBar layoutY="-1.0" prefHeight="37.0" prefWidth="1200.0">
         <menus>
-          <Menu mnemonicParsing="false" text="File">
+          <Menu mnemonicParsing="false" text="New">
             <items>
-              <MenuItem mnemonicParsing="false" text="New" />
+              <MenuItem mnemonicParsing="false" text="Appointemnt" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
+            <Menu mnemonicParsing="false" text="File">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#handleHelp" text="About" />
+                </items>
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit Program"  />
+                </items>
+
+            </Menu>
         </menus>
       </MenuBar>
     </children>
