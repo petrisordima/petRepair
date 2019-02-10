@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="47471df5-275f-4447-ad51-19d08ac32063" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/PetShop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PetShop.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/controllers/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/controllers/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/controllers/MainView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/AppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,8 +139,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5371" />
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="JAVA" value="5393" />
+          <entry key="PLAIN_TEXT" value="48" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="405" />
           <entry key="XML" value="108" />
@@ -160,13 +157,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/AppointmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
+            <state relative-caret-position="714">
+              <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initialize#0;class#AppointmentController#0" />
-                <element signature="e#4376#4377#0" expanded="true" />
-                <element signature="e#4406#4407#0" expanded="true" />
+                <element signature="docComment;field#tableViewAppointments#0;class#AppointmentController#0" />
+                <element signature="docComment;field#animalName#0;class#AppointmentController#0" />
+                <element signature="method#populateAppointmentsTable#0;class#AppointmentController#0" />
+                <element signature="e#2532#3387#0" />
+                <element signature="method#getAppointmentsList#0;class#AppointmentController#0" />
+                <element signature="method#getAppointmentHistoryList#0;class#AppointmentController#0" />
+                <element signature="method#handleHelp#0;class#AppointmentController#0" />
               </folding>
             </state>
           </provider>
@@ -176,7 +176,7 @@
         <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1020">
               <caret line="60" column="95" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
             </state>
           </provider>
@@ -185,8 +185,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="425">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,9 +234,9 @@
         <option value="$PROJECT_DIR$/src/model/Animal.java" />
         <option value="$PROJECT_DIR$/src/controllers/RootLayoutController.java" />
         <option value="$PROJECT_DIR$/src/controllers/RootLayout.fxml" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/controllers/MainView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/controllers/AppointmentController.java" />
       </list>
     </option>
@@ -345,7 +349,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="7db14b0e-beeb-48ee-bb84-b0cf02853ae8" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549816451273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549822189351" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/model" />
@@ -433,7 +437,7 @@
       <workItem from="1549389487201" duration="2242000" />
       <workItem from="1549486272390" duration="1124000" />
       <workItem from="1549487647034" duration="29000" />
-      <workItem from="1549805433207" duration="3737000" />
+      <workItem from="1549805433207" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Eclipse claspaths">
       <created>1543345950507</created>
@@ -456,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549813927328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaning">
+      <created>1549816471522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549816471522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85876000" />
+    <option name="totallyTimeSpent" value="86978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +486,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6351351" visible="true" weight="0.17315437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6351351" visible="true" weight="0.17315437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.36486486" side_tool="true" weight="0.3481276" />
       <window_info id="Designer" order="3" />
@@ -486,7 +497,7 @@
       <window_info id="JavaEE:App" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.046089385" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25139666" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25139666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,7 +565,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed Eclipse claspaths" />
     <MESSAGE value="Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
+    <MESSAGE value="Cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,6 +578,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/controllers/AppointmentController.java</url>
+          <line>55</line>
+          <properties class="controllers.AppointmentController" method="populateAppointmentsTable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/util/DatabaseUtil.java</url>
@@ -858,14 +878,6 @@
     <entry file="file://$PROJECT_DIR$/replay_pid29444.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="60" column="95" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1011">
@@ -879,20 +891,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="425">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="95" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/AppointmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
+        <state relative-caret-position="714">
+          <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initialize#0;class#AppointmentController#0" />
-            <element signature="e#4376#4377#0" expanded="true" />
-            <element signature="e#4406#4407#0" expanded="true" />
+            <element signature="docComment;field#tableViewAppointments#0;class#AppointmentController#0" />
+            <element signature="docComment;field#animalName#0;class#AppointmentController#0" />
+            <element signature="method#populateAppointmentsTable#0;class#AppointmentController#0" />
+            <element signature="e#2532#3387#0" />
+            <element signature="method#getAppointmentsList#0;class#AppointmentController#0" />
+            <element signature="method#getAppointmentHistoryList#0;class#AppointmentController#0" />
+            <element signature="method#handleHelp#0;class#AppointmentController#0" />
           </folding>
         </state>
       </provider>

@@ -9,11 +9,8 @@ import javafx.stage.Stage;
 //Main class which extends from Application Class
 public class Main extends Application {
 
-
     public static void main(String[] args) {
-
         launch(args);
-
     }
 
     @Override
@@ -30,42 +27,6 @@ public class Main extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }
-
-//public abstract class Main extends Application{
-//
-//    public static void main(String[] args) throws Exception{
-//
-//
-//        DatabaseUtil dbUtil = new DatabaseUtil();
-//        Animal animal = new Animal();
-//        Doctor doctor = new Doctor();
-//        Appointment appointment = new Appointment();
-//        AppointmentsUtil ape = new AppointmentsUtil();
-//
-//
-//
-//
-//
-////        animal.setIdAnimal(2);
-////        animal.setNameAnimal("Bonana");
-////
-////        doctor.setIdDoctor(1);
-////        doctor.setNameDoctor("Doctor 1");
-//
-//        dbUtil.setup();
-//        dbUtil.startTransaction();
-//        ape.printAppointmentHistory();
-//
-////        dbUtil.saveAnimal(animal);
-////        dbUtil.commitTransaction();
-//        //AnimalUtil.printAllAnimalsFromDb();
-//        dbUtil.stopEntityManager();
-//
-//    }
-
-//}
 

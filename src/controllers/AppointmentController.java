@@ -50,10 +50,7 @@ public class AppointmentController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
         populateAppointmentsTable();
-
-
     }
 
     public void populateAppointmentsTable() {
@@ -117,11 +114,7 @@ public class AppointmentController implements Initializable {
         db.stopEntityManager();
     }
 
-    /**
-     * Appointment Table observable list
-     */
-
-
+    // Appointment Table observable list
     public ObservableList<Appointment> getAppointmentsList(List<Appointment> appointmentList) {
 
         ObservableList<Appointment> fXAppointmentsList = FXCollections.observableArrayList();
@@ -133,10 +126,7 @@ public class AppointmentController implements Initializable {
         return fXAppointmentsList;
     }
 
-    /**
-     * Appointment History observable list
-     */
-
+    //Appointment History observable list
     public ObservableList<String> getAppointmentHistoryList(List<AppointmentHistory> appointmentHistoryList) {
 
         ObservableList<String> FXAppointmentsList = FXCollections.observableArrayList();
@@ -152,6 +142,7 @@ public class AppointmentController implements Initializable {
         System.exit(0);
     }
 
+    //About
     public void handleHelp(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Program Information");
