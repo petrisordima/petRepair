@@ -10,6 +10,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import model.Appointment;
 import model.AppointmentHistory;
+import util.AppointmentsUtil;
 import util.DatabaseUtil;
 
 import java.net.URL;
@@ -17,10 +18,14 @@ import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import static util.AppointmentsUtil.appointmentList;
 
 public class AppointmentController implements Initializable {
 
+    AppointmentsUtil au = new AppointmentsUtil();
+
+    /**
+     * Appointments table and column definition
+     */
     @FXML
     private TableView<Appointment> tableViewAppointments;
     @FXML
@@ -30,7 +35,9 @@ public class AppointmentController implements Initializable {
     @FXML
     private TableColumn<Appointment, String> typeAppointment;
 
-
+    /**
+     * Appointments fields definition
+     */
     @FXML
     private TextField animalName;
     @FXML
@@ -55,7 +62,7 @@ public class AppointmentController implements Initializable {
         db.startTransaction();
 
         // get appointment list
-        List<Appointment> appointmentDBList = appointmentList();
+        List<Appointment> appointmentDBList = au.appointmentList();
 
         //map columns to appointment properties
         dateAppointment.setCellValueFactory(new PropertyValueFactory<>("dateAppointment"));
@@ -79,18 +86,20 @@ public class AppointmentController implements Initializable {
         );
 
         tableViewAppointments.setOnMousePressed(event -> {
-
+            // animal type
             animalType.setText(tableViewAppointments.
                     getSelectionModel().
                     getSelectedItem().
                     getAnimal().
                     getTypeAnimalBean().
                     getType());
+            // animal name
             animalName.setText(tableViewAppointments.
                     getSelectionModel().
                     getSelectedItem().
                     getAnimal().
                     getNameAnimal());
+            //doctor name
             doctorName.setText(tableViewAppointments.
                     getSelectionModel().
                     getSelectedItem().
@@ -128,7 +137,7 @@ public class AppointmentController implements Initializable {
         ObservableList<String> FXAppointmentsList = FXCollections.observableArrayList();
 
         for (AppointmentHistory a : appointmentHistoryList) {
-            FXAppointmentsList.add(a.getName() + "  Descriere : " + a.getDescription());
+            FXAppointmentsList.add(a.getName()  + a.getDescription());
         }
         return FXAppointmentsList;
     }
