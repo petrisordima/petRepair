@@ -1,3 +1,3 @@
 # petRepair
-proiect laborator Medii si instrumente de programare ID
-by Petrișor Dima, info ID an III
+* proiect laborator Medii si instrumente de programare ID
+* by Petrișor Dima, info ID an III
