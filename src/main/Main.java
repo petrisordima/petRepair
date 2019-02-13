@@ -17,10 +17,10 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         try {
-
-            AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("/controllers/MainView.fxml"));
+            //root stage appointment view with the associated fxml file
+            AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("/controllers/AppointmentView.fxml"));
             Scene scene = new Scene(root, 1200, 800);
-            primaryStage.setTitle("PetShopRepair");
+            primaryStage.setTitle("PetRepair");
             primaryStage.setScene(scene);
             primaryStage.show();
 

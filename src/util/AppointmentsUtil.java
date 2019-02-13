@@ -9,7 +9,7 @@ import java.util.List;
 public class AppointmentsUtil {
 
 
-    public static List<Appointment> appointmentList() {
+    public static List appointmentList() {
 
         return DatabaseUtil.entityManager.createNativeQuery(
                 "Select * from petshop.appointments", Appointment.class)
@@ -18,10 +18,9 @@ public class AppointmentsUtil {
 
     //appointment list form view
     public static List<VAppointmentList> appointmentViewList() {
-        List<VAppointmentList> results = DatabaseUtil.entityManager.createNativeQuery(
+        return DatabaseUtil.entityManager.createNativeQuery(
                 "Select * from petshop.v_appointment_list", VAppointmentList.class)
                 .getResultList();
-        return results;
     }
 
     //appointment history list

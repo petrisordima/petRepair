@@ -1,7 +1,8 @@
 package util;
 
-import model.Animal;
 import model.Doctor;
+
+import java.util.List;
 
 public class DoctorUtil {
 
@@ -11,10 +12,10 @@ public class DoctorUtil {
 
     }
 
-//    public static String getNameDoctor(int id){
-//
-//        String q = "Select * from petshop.animal" + id;
-//
-//        String doctorName = DatabaseUtil.entityManager.createNativeQuery(q, Animal.class).get;
-//    }
+    public static List getdoctorList() {
+
+        return DatabaseUtil.entityManager.createNativeQuery(
+                "Select * from petshop.doctor", Doctor.class)
+                .getResultList();
+    }
 }

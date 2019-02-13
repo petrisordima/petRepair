@@ -14,7 +14,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/Petshop</jdbc-url>
-      <default-dialect>MySQL</default-dialect>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -25,6 +24,7 @@
       </driver-properties>
     </data-source>
   </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
@@ -169,7 +169,7 @@
   </component>
   <component name="dataSourceStorageLocal">
     <data-source name="Petshop@localhost" uuid="7db14b0e-beeb-48ee-bb84-b0cf02853ae8">
-      <database-info product="MySQL" version="8.0.13" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="8.0.13">
+      <database-info product="MySQL" version="8.0.13" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="8.0.13">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
@@ -180,6 +180,13 @@
     </data-source>
   </component>
   <component name="libraryTable">
+    <library name="charm-glisten-4.4.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../Librarii/charm-glisten-4.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="eclipselink">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/../../Librarii/eclipselink-2.7.3.v20180807-4be1041/eclipselink/jlib/eclipselink.jar!/" />

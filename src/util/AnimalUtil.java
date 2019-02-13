@@ -13,11 +13,10 @@ public class AnimalUtil {
     }
 
 
-    public static List<Animal> animalList() {
-        //noinspection UnnecessaryLocalVariable
-        List<Animal> results = DatabaseUtil.entityManager.createNativeQuery(
+    public static List animalList() {
+
+        return DatabaseUtil.entityManager.createNativeQuery(
                 "Select * from petshop.animal", Animal.class).getResultList();
-        return results;
     }
 
 

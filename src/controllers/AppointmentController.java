@@ -4,17 +4,19 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 import model.Appointment;
 import model.AppointmentHistory;
 import util.AppointmentsUtil;
 import util.DatabaseUtil;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.Date;
 import java.util.List;
@@ -46,13 +48,15 @@ public class AppointmentController implements Initializable {
     private TextField animalType;
     @FXML
     private TextField doctorName;
-
+    @FXML
+    private TextArea description;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         populateAppointmentsTable();
     }
 
+    // Appointment list and appointment detail
     public void populateAppointmentsTable() {
 
         // start DB connection
@@ -75,12 +79,12 @@ public class AppointmentController implements Initializable {
         /*lambda expression :)
 
          */
-        tableViewAppointments.setOnMousePressed(event -> animalName.setText(tableViewAppointments.
-                getSelectionModel().
-                getSelectedItem().
-                getAnimal().
-                getNameAnimal())
-        );
+//        tableViewAppointments.setOnMousePressed(event -> animalName.setText(tableViewAppointments.
+//                getSelectionModel().
+//                getSelectedItem().
+//                getAnimal().
+//                getNameAnimal())
+//        );
 
         //load appointments details on mouse pressed
 
@@ -105,6 +109,10 @@ public class AppointmentController implements Initializable {
                         getSelectedItem().
                         getDoctor().
                         getNameDoctor());
+                description.setText(tableViewAppointments.
+                        getSelectionModel().
+                        getSelectedItem().
+                        getTypeAppointment());
             } catch (Exception e) {
                 System.out.println(" no item selected in the list");
             }
@@ -120,7 +128,7 @@ public class AppointmentController implements Initializable {
         ObservableList<Appointment> fXAppointmentsList = FXCollections.observableArrayList();
 
         for (Appointment a : appointmentList) {
-            System.out.println(a);
+            //System.out.println(a);
             fXAppointmentsList.add(a);
         }
         return fXAppointmentsList;
@@ -135,6 +143,17 @@ public class AppointmentController implements Initializable {
             FXAppointmentsList.add(a.getName() + a.getDescription());
         }
         return FXAppointmentsList;
+    }
+
+    //New appointemnt
+    public void handleNewAppointemnt(ActionEvent actionEvent) throws IOException {
+        AnchorPane root = (AnchorPane) FXMLLoader.load(getClass().getResource("/controllers/NewAppointmentView.fxml"));
+        Scene scene = new Scene(root, 400, 480);
+
+        Stage stage = new Stage();
+        stage.setTitle("New appointment");
+        stage.setScene(scene);
+        stage.show();
     }
 
     //Exit the program
